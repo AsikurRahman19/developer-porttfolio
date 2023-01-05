@@ -39,14 +39,15 @@ nav li {
     list-style: none;
     margin-left: 50px;
 }
-.header{
+
+.header {
     background: #FFF8F3;
-    background-image: url('../images/header_bg.png'),url('../images/developer.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right;
-    background-position: bottom right,left;
+    background-position: bottom right, left;
 
-} 
+}
 
 /* banner styles */
 .banner {
@@ -68,51 +69,106 @@ nav li {
 }
 
 .banner-description {
-   
+
     font-size: 18px;
-   margin-bottom: 30px;
+    margin-bottom: 30px;
     color: #757575;
-   
+
 }
+
 /* main section */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
-/* about section style */
-.about{
+
+section {
     margin-top: 130px;
+  
+}
+
+/* about section style */
+.about {
+
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
 
 }
-.section-tittle{
-    
-    margin-bottom: 30px;
 
-}
-.section-description{
+.section-description {
     color: #757575;
     font-size: 18px;
     margin-bottom: 30px;
 
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 
 }
-.about.info-title{
+
+.about.info-title {
     font: size 20px;
     color: #757575;
-    
+
 
 }
-.info-description{
+
+.info-description {
     font-weight: 700;
     font-size: 20px;
     color: #474747;
 
+}
+
+/* What I do */
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    position: absolute;
+    width: 167px;
+    height: 48px;
+    left: 684px;
+    top: 1644px;
+
+font-size: 35px;
+    
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill-title {
+
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px
 }
